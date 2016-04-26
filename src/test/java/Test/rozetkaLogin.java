@@ -50,6 +50,7 @@ public class rozetkaLogin {
 //        Thread.sleep(1000);
         //Assert.assertTrue(userNameActual.equalsIgnoreCase(expectedUserElement));
 //this is git
+        //comment
         RozetkaLoginPage LoginPage=new RozetkaLoginPage(driver);
         LoginPage.Login(userEmail, userPassword);
         Assert.assertTrue(LoginPage.checkUserName);
